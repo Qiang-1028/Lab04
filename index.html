@@ -9,20 +9,18 @@
 <legend><h2>Volunteer Form</h2></legend>
 <h3>My Info</h3>
  <label for="Fname">First Name:</label>
- <input type="text" name="Fname" id="Fname"><br/><br/>
+ <input type="text" name="first_name_field" id="Fname"><br/><br/>
  <label for="Lname">Last Name:</label>
- <input type="text" name="Lname" id="Lname"><br/><br/>
+ <input type="text" name="last_name_field" id="Lname"><br/><br/>
  <label for="Phone">Phone Number:</label>
- <input type="text" name="Phone" id="Phone"><br/><br/>
+ <input type="text" name="phone_field" id="Phone"><br/><br/>
  <label for="Email">Email Address:</label>
- <input type="text" name="Email" id="Email"><br/><br/>
- Gender: <input type="radio" name="gender" id="male" />
+ <input type="text" name="email_field" id="Email"><br/><br/>
+ Gender: <input type="radio" name="gender_field" id="male" />
  <label for="male">Male</label>
- <input type="radio" name="gender" id="female" />
+ <input type="radio" name="gender_field" id="female" />
  <label for="female">Female</label>
- <input type="radio" name="gender" id="other" />
- <label for="other">Other</label><br/><br/>
- Age: <select name="age">
+ Age: <select name="age_field">
  <option>under 18</option>
  <option>18-24</option>
  <option>25-34</option>
@@ -30,7 +28,6 @@
  <option>45-54</option>
  <option>55-64</option>
  <option>65 and over</option> 
- <option>I don't want to tell you</option>
  </select>
 </fieldset>
 <br/>
@@ -38,22 +35,22 @@
 <fieldset>
   <legend><h2>My Availability</h2></legend>
    <h3>Days Available</h3>
- <input type="checkbox" name="day" id="M"/>
+ <input type="checkbox" name="available_field[]" id="M"/>
  <label for="M">Monday</label><br/><br/>
- <input type="checkbox" name="day" id="T"/>
+ <input type="checkbox" name="available_field[]" id="T"/>
  <label for="T">Tuesday</label><br/><br/>
-  <input type="checkbox" name="day" id="W"/>
+  <input type="checkbox" name="available_field[]" id="W"/>
  <label for="W">Wednesday</label><br/><br/>
-  <input type="checkbox" name="day" id="R"/>
+  <input type="checkbox" name="available_field[]" id="R"/>
  <label for="R">Thursday</label><br/><br/>
-  <input type="checkbox" name="day" id="F"/>
+  <input type="checkbox" name="available_field[]" id="F"/>
  <label for="F">Friday</label><br/><br/>
-  <input type="checkbox" name="day" id="Sa"/>
+  <input type="checkbox" name="available_field[]" id="Sa"/>
  <label for="Sa">Saturday</label><br/><br/>
-  <input type="checkbox" name="day" id="Su"/>
+  <input type="checkbox" name="available_field[]" id="Su"/>
  <label for="Su">Sunday</label><br/><br/>
  Any Comments?<br/>
- <textarea name="comments" rows="5" cols="20"></textarea><br/><br/>
+ <textarea name="comments_field" rows="5" cols="20"></textarea><br/><br/>
 </fieldset><br/>
  <input type="submit" value="Send Me">
  <input type="hidden" name="hidden_field" value="Qiang Bao">
