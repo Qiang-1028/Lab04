@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<form action=“http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php” method=“post”>
+<fieldset>
+<legend><h2>Volunteer Form</h2></legend>
+<h3>My Info</h3>
+ <label for="Fname">First Name:</label>
+ <input type="text" name="Fname" id="Fname"><br/><br/>
+ <label for="Lname">Last Name:</label>
+ <input type="text" name="Lname" id="Lname"><br/><br/>
+ <label for="Phone">Phone Number:</label>
+ <input type="text" name="Phone" id="Phone"><br/><br/>
+ <label for="Email">Email Address:</label>
+ <input type="text" name="Email" id="Email"><br/><br/>
+ Gender: <input type="radio" name="gender" id="male" />
+ <label for="male">Male</label>
+ <input type="radio" name="gender" id="female" />
+ <label for="female">Female</label>
+ <input type="radio" name="gender" id="other" />
+ <label for="other">Other</label><br/><br/>
+ Age: <select name="age">
+ <option>under 18</option>
+ <option>18-24</option>
+ <option>25-34</option>
+ <option>35-44</option>
+ <option>45-54</option>
+ <option>55-64</option>
+ <option>65 and over</option> 
+ <option>I don't want to tell you</option>
+ </select>
+</fieldset>
+<br/>
+
+<fieldset>
+  <legend><h2>My Availability</h2></legend>
+   <h3>Days Available</h3>
+ <input type="checkbox" name="day" id="M"/>
+ <label for="M">Monday</label><br/><br/>
+ <input type="checkbox" name="day" id="T"/>
+ <label for="T">Tuesday</label><br/><br/>
+  <input type="checkbox" name="day" id="W"/>
+ <label for="W">Wednesday</label><br/><br/>
+  <input type="checkbox" name="day" id="R"/>
+ <label for="R">Thursday</label><br/><br/>
+  <input type="checkbox" name="day" id="F"/>
+ <label for="F">Friday</label><br/><br/>
+  <input type="checkbox" name="day" id="Sa"/>
+ <label for="Sa">Saturday</label><br/><br/>
+  <input type="checkbox" name="day" id="Su"/>
+ <label for="Su">Sunday</label><br/><br/>
+ Any Comments?<br/>
+ <textarea name="comments" rows="5" cols="20"></textarea><br/><br/>
+</fieldset><br/>
+ <input type="submit" value="Send Me">
+ <input type="hidden" name="hidden_field" value="Qiang Bao">
+
+</form>
+</body>
+</html>
+
